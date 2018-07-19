@@ -1,0 +1,1 @@
+insert into received_messages values (1,'test message');
