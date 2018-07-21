@@ -1,4 +1,4 @@
-package com.springbootdev.samples.rabbitmq.consumer.model;
+package com.springbootdev.samples.rabbitmq.model;
 
 public class Item {
 

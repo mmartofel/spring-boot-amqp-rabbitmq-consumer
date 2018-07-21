@@ -1,0 +1,7 @@
+---
+applications:
+- name: amqp-consumer
+  instances: 1
+  host: consumer-${random-word}
+  path: target/spring-boot-amqp-rabbitmq-consumer-0.0.1-SNAPSHOT.jar
+  timeout: 180

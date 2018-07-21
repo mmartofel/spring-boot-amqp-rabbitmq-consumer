@@ -1,8 +1,8 @@
-package com.springbootdev.samples.rabbitmq.consumer.listener;
+package com.springbootdev.samples.rabbitmq.listener;
 
-import com.springbootdev.samples.rabbitmq.consumer.model.Order;
-import com.springbootdev.samples.rabbitmq.consumer.model.ReceivedMessage;
-import com.springbootdev.samples.rabbitmq.consumer.repository.ReceivedMessageRepository;
+import com.springbootdev.samples.rabbitmq.model.Order;
+import com.springbootdev.samples.rabbitmq.model.ReceivedMessage;
+import com.springbootdev.samples.rabbitmq.repository.ReceivedMessageRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.amqp.rabbit.annotation.RabbitHandler;

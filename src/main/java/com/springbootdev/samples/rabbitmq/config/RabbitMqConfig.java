@@ -1,7 +1,6 @@
-package com.springbootdev.samples.rabbitmq.consumer;
+package com.springbootdev.samples.rabbitmq.config;
 
-import com.springbootdev.samples.rabbitmq.consumer.model.Item;
-import com.springbootdev.samples.rabbitmq.consumer.model.Order;
+import com.springbootdev.samples.rabbitmq.model.Order;
 import org.springframework.amqp.rabbit.connection.ConnectionFactory;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.amqp.support.converter.DefaultClassMapper;

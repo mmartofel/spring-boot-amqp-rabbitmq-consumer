@@ -1,6 +1,6 @@
-package com.springbootdev.samples.rabbitmq.consumer.repository;
+package com.springbootdev.samples.rabbitmq.repository;
 
-import com.springbootdev.samples.rabbitmq.consumer.model.ReceivedMessage;
+import com.springbootdev.samples.rabbitmq.model.ReceivedMessage;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 

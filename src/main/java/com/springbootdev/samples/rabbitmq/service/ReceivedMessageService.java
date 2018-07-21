@@ -1,6 +1,6 @@
-package com.springbootdev.samples.rabbitmq.consumer.service;
+package com.springbootdev.samples.rabbitmq.service;
 
-import com.springbootdev.samples.rabbitmq.consumer.repository.ReceivedMessageRepository;
+import com.springbootdev.samples.rabbitmq.repository.ReceivedMessageRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
